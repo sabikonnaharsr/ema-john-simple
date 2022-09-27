@@ -1,0 +1,30 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    margin: 80px 60px;
+}
+.cart-container{
+    margin: 49px 3px;
+    background: #FFE0B3;
+    /* background: #FF3030; */
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+/* .product-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+} */
+
+@media screen and (max-width: 1100px) {
+    .product-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
