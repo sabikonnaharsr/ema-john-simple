@@ -1,0 +1,51 @@
+body{
+    /* background-color: slategray; */
+    background-color: cadetblue;
+}
+.home-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.all-btn{
+    margin: 30px;
+    
+}
+.search-input{
+    background-color: rgba(249, 244, 242, 0.838);
+    margin-right: 10px;
+    padding: 15px;
+    width: 58%;
+    border: 0;
+    border-radius: 5px;
+
+}
+.search-btn{
+    background: midnightblue;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+   margin-top: 20px;
+   padding: 15px;
+   width: 25%;
+   font-weight: 600;
+}
+.cart{
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px;
+    padding: 10px;
+    margin-top: 44px;
+    margin-right: 20px;
+}
+.cart-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delete-btn{
+    border: none;
+    background-color: none;
+    color: red;
+    margin-left: 10px;
+}
